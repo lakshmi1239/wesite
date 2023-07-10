@@ -192,6 +192,7 @@ li{
     grid-template-columns: auto auto auto;
      padding: 50px 10px 10px 30px;
      width: 100%; 
+     background-color: #fff;
 }
 .services-cards{
     border: 1px solid black;
@@ -203,6 +204,7 @@ li{
     /* align-items: center; */
     text-align: center;
     position: relative;
+    z-index: +1;
 }
 .services-cards i{
     font-size: 50px;
@@ -214,7 +216,7 @@ li{
     line-height: 40px;
 }
 .services-cards p{
-    color: rgb(134, 68, 209);
+    color: rgb(178, 111, 253);
     line-height: 30px;
 }
 .services-cards span i{
@@ -246,6 +248,42 @@ li{
     color: #fff;
 }
 .services-cards:hover p{
+    color: #fff;
+}
+.industrial-section1{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    margin: 50px 150px;
+    gap: 100px;
+    text-align: center;
+}
+.industrial-1{
+    border: 5px solid rgb(211, 26, 88);
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    padding:70px ;
+}
+.industrial-2 p{
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.industrial-section2{
+    display: flex;
+    gap: 25px;
+    /* align-items: center; */
+    text-align: center;
+    padding: 0px 60px;
+}
+.industrial-cards{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #df5a71;
+    width: 100px;
+}
+.industrial-cards span{
     color: #fff;
 }
 
