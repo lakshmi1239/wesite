@@ -198,8 +198,8 @@ li{
     border: 1px solid black;
     padding: 30px;
     margin: 50px;
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     /* background-color:rgb(255,255,200) ; */
     /* align-items: center; */
     text-align: center;
@@ -275,8 +275,8 @@ li{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 25px;
-    /* align-items: center; */
-    text-align: center;
+    align-items: center;
+    /* text-align: center; */
     padding: 0px 60px;
 }
 .industrial-cards{
@@ -290,23 +290,25 @@ li{
 }
 /* Home social media links starts */
 .home-social-links{
-    /* display: flex; */
-    /* flex-direction: column; */
     display: grid;
     position: fixed;
     right: 0;
     top: 40%;
+    /* border: 1px solid black; */
+  
 }
 .home-social-links i{
     margin: -10px 0px;
     border: 1px solid black;
+     border-radius: 5px; 
+    text-align: left;
     padding: 5px 100px 5px 5px;
     transform: translateX(100px);
     transition: all 0.6s ease-in-out;
     /* color: #a0145a; */
 }
 .home-social-links i:hover{
-    transform: translateX(0px);
+    transform: translateX(10px);
     transition: all 0.6s ease-in-out;
 }
 .home-social-links i:nth-child(1){
@@ -331,3 +333,56 @@ li{
 }
 /* Home social media links ends */
 
+.scrolling-button{
+ width: 50px;
+ height: 50px;
+ background-color:#a0145a ;
+ /* color: #fff; */
+ border-radius: 50px;
+ margin: 40px 10px;
+ border: 1px solid black;
+ top: 80%;
+ position: fixed;
+}
+.scrolling-button i{
+    color: #fff;
+}
+.footer-top{
+    margin: 50px 0px;
+    display: flex;
+    gap: 140px;
+    padding: 80px 100px;
+    background-color: #a0145a;
+    color: #f3efeff8;
+}
+.footer-top1 h4{
+    font-size: 30px;
+    color: #fff;
+}
+.footer-top1 p{
+    font-size:15px ;
+    margin: 20px 0px 0px 0px;
+    line-height: 25px;
+}
+.footer-top2 h4{
+    font-size: 15px;
+    margin: -15px 0px 0px 0px;
+}
+.footer-top2 ul{
+    margin: 20px 0px 0px 0px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.footer-top3 h4{
+    /* color:#f3efeff8; */
+    margin: -15px 0px 20px 0px;
+}
+.footer-top3 a{
+    color:#f3efeff8;
+    line-height: 25px;
+}
+.footer-top4 i{
+    margin: 20px 0px 0px 0px;
+    /* gap: 30px; */
+    padding: 0px 10px;
+}
