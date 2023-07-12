@@ -102,7 +102,8 @@ li{
     display: flex;
     padding: 50px 30px;
     justify-content: space-between;
-    gap: 100px;
+    gap: 60px;
+    background-color: #fff;
 }
 .home-about-projects{
     display: flex;
@@ -386,22 +387,22 @@ li{
     /* gap: 30px; */
     padding: 0px 10px;
 }
-.About-Us-banner{
+.banner{
  margin-top: 195px;
 }
-.About-Us-banner1{
+.banner1{
     background-color: #a0145a;
     text-align: center;
     /* height: 100px; */
     width: 100%;
     padding: 20px 0px;
 }
-.About-Us-banner1 h1{
+.banner1 h1{
     font-size: 20px;
     color: #fff;
     
 }
-.About-Us-banner2{
+.banner2{
     display: grid;
     grid-template-columns: auto auto auto;
     /* gap: -100px; */
@@ -409,11 +410,115 @@ li{
     /* line-height: 30px; */
     margin: 20px 0px;
 }
-.About-Us-banner2 a,p{
+.banner2 a,p{
     color: #a09292;
     font-size: 15px;
 }
-.About-Us-banner2 a:hover{
+.banner2 a:hover{
     color: #fff;
+}
+.Outstading-section{
+    text-align: center;
+    margin: 80px 0px;
+    line-height: 30px;
+}
+.Outstading-section h4{
+    font-size: 15px;
+    color: #e787b7;
+}
+.Outstading-section h1{
+    font-size: 35px;
+    line-height: 30px;
+}
+.Outstading-section span{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Outstading-section2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px 500px;
+}
+.Outstading1{
+    background-color: #edf3b2;
+}
+.Outstading2{
+    background-color: #b8f3b2;
+}
+.Contact-Us{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px 200px;
+}
+.Contact-Us1{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 150px;
+    padding: 10px;
+    width: 250px;
+    line-height: 30px;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: #fff;
+}
+.Contact-Us1 a{
+    color:plum ;
+}
+.Contact-Us2{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 200px;
+    padding: 10px;
+    width: 200px;
+    line-height: 30px;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: #fff;
+}
+.Contact-Us2 p{
+ color:rgba(177, 108, 140, 0.952);
+}
+.address-section{
+    display: flex;
+    padding: 80px 40px;
+    gap: 100px;
+}
+.address-section1{
+    /* border: 2px solid rgb(24, 21, 21);  */
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    line-height: 50px;
+    background-color: #fff;
+}
+.address-section1 h1{
+    font-size: 30px;
+}
+.address-section1 input{
+    width:500px;
+    height: 35px;
+    padding: 3px;
+    background-color: beige; 
+}
+.address-section1 textarea{
+    width:500px;
+    height: 150px;
+    padding: 3px;
+    background-color: beige; 
+}
+.address-section1 button{
+    border: 2px black solid;
+    background-color: #c7157d;
+    color: white;
+    height: 35px;
+    width: 100px; 
+}
+.address-section1 button:hover{
+    color: black;
+    background-color: rgb(228, 168, 168);
+    cursor: pointer;
+    transition: all 0.6 ease-in-out;
 }
 
