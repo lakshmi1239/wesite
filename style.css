@@ -60,14 +60,15 @@ li{
     margin-top: 8px;
     border: 1px black double;
     padding: 10px 15px;
-    transition: all 0.3s ease-in-out 0s; 
+    /* transition: all 0.3s ease-in-out 0s;  */
     
 }
-.services:hover .services-link  {
-    z-index: 9;
+.services:hover .services-link{
+    z-index: +9;
     position: absolute;
     display: block;
-    /* transition: all 0.9s ease-in-out; */
+    background-color:#fff;
+    transition: all -0.9s ease-in-out;
 }
 .banner-section{
     display: flex;
@@ -453,6 +454,9 @@ li{
     grid-template-columns: auto auto auto;
     padding: 40px 200px;
 }
+.Contact-Us :hover{
+    box-shadow: 3px 3px 3px 3px black;
+}
 .Contact-Us1{
     text-align: center;
     border: 2px solid black;
@@ -547,8 +551,90 @@ color: rgb(116, 102, 102);
 }
 .project-details-section{
 display: flex;
+gap: 40px;
+padding: 40px;
 }
-.project-details{
+.project-details1 img{
+    width: 700px;
+    height: 300px;
+    border: 1px solid black;
+} 
+.project-details3{
+    /* border: 1px solid black; */
+    padding: 25px 110px 20px 10px;
+    margin: 20px;
+    background-color: #fff;
+    border-left: 4px solid #65258a;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
     
+}
+.project-details3 i{
+    padding: 5px;
+} 
+.project-details3 span{
+    font-size: 20px;
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* text-align: center; */
+    align-items: center;
+    margin: 10px 100px;
+    padding: 40px 200px;
+    /* gap: 5px; */
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 0px 15px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+}
+.skills-section :hover{
+    box-shadow: 10px 10px 15px 0 black;
+}
+.skills i{
+    color: black;
+    padding: 5px;
+}
+.skills span{
+    color: black;
+    padding: 5px;
+}
+.project-details-row{
+    padding: 40px;
+}
+.project-row{
+    display: flex;
+    justify-content: space-between;
+}
+.project-row img{
+    width: 500px;
+    height: 400px;
+}
+.project h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.project p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: darkslategrey;
+    line-height: 30px;
+}
+.project-row2  h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.project-row2  p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: darkslategrey;
+    line-height: 30px;
+}
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #fff;
+    margin-top: 20px;
 }
 
